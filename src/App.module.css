@@ -1,0 +1,26 @@
+.container{
+  height: 100vh;
+  width: 100vw;
+  color: black;
+}
+nav{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  border-bottom: 1px solid black;
+  z-index: 999;
+  background: rgba(11, 11, 11, 0.1);
+}
+.main{
+  position: relative;
+   top: 10%;
+   padding-top: 1vw;
+}
+button{
+  padding: 10px 20px;
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  font-weight: 900;
+}

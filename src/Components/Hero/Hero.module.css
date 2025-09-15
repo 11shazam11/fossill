@@ -1,0 +1,63 @@
+@font-face {
+    font-family: regular;
+    src: url(/Lato-Regular.ttf);
+}
+@font-face {
+    font-family: boldR;
+    src: url(/Boldonse-Regular.ttf);
+}
+.container{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    padding: 3vw;
+    position: relative;
+}
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+
+}
+.right h1{
+    font-family: boldR;
+    font-size: 4vw;
+    
+    
+}
+.right .upper{
+    font-size: 2vw;
+    font-weight: 900;
+}
+.right p{
+    font-family: regular;
+    font-weight: 1vw;
+}
+.left{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.cubes{
+    
+    height: 100%;
+    width: 100%;
+    
+    
+}
+.circular{
+    position: fixed;
+    height: 200px;
+    width: 200px;
+    bottom: 0;
+    right: 2%;
+    font-family: regular;
+}

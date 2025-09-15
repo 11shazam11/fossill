@@ -1,0 +1,43 @@
+@font-face {
+    font-family: logo;
+    src: url("/LibreBarcode39Text-Regular.ttf");
+}
+@font-face {
+    font-family: regular;
+    src: url("/Lato-Regular.ttf");
+}
+.container{
+    width: 100%;
+    padding: 1vw 2vw;
+    top: 0;
+    font-size: xx-small;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container .logo *{
+    font-family: logo;
+    font-weight: 900;
+}
+.menu{
+    width: 70%;
+    display: flex;
+    font-family: regular;
+    justify-content: space-evenly;
+}
+.dropdownWrapper {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: opacity 0.3s ease, max-height 0.3s ease;
+}
+
+.show {
+  opacity: 1;
+  max-height: 500px; /* large enough to show content */
+}
+
+.hide {
+  opacity: 0;
+  max-height: 0;
+}
