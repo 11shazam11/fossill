@@ -47,13 +47,13 @@ const Navbar = () => {
         <div className={style.item}>
             <h1>Work</h1>
         </div>
-        <div className={style.item} onMouseEnter={handleServices} onMouseLeave={handleServices}>
+        <div className={style.item} onMouseEnter={handleServices} onMouseLeave={handleServices} style={{cursor:"pointer"}}>
             <h1>Services</h1>
         </div>
         <div className={style.item}>
             <h1>Clients</h1>
         </div>
-        <div className={style.item} onMouseEnter={handleAbout} onMouseLeave={handleAbout}>
+        <div className={style.item} onMouseEnter={handleAbout} onMouseLeave={handleAbout} style={{cursor:"pointer"}}>
             <h1>About</h1>
         </div>
         <div className={style.item}>
