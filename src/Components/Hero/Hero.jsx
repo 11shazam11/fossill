@@ -2,6 +2,7 @@ import React from "react";
 import style from "./Hero.module.css";
 import Cubes from "../../animations/Cubes/Cubes";
 import CircularText from "../../animations/Circular/CircularText";
+import ScrollReveal from "../../animations/Scroll/ScrollReveal";
 
 const Hero = () => {
   return (
@@ -33,6 +34,16 @@ const Hero = () => {
         </div>
       </div>
       <div className={style.logoList}></div>
+      <div className={style.scrolltext}>
+        {/* <ScrollReveal
+  baseOpacity={0}
+  enableBlur={true}
+  baseRotation={5}
+  blurStrength={10}
+>
+  We are a global creative agency that combines design expertise with technology and intelligence.
+</ScrollReveal> */}
+      </div>
       <div className={style.circular}>
         <CircularText
   text="FOSSIL*INFOTECH*"
